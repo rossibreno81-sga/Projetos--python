@@ -2,8 +2,10 @@
 def calcular_frete(peso):
     if peso <= 20:
         valor = peso * 10
+        print("Carga leve")
     else:
-        valor = peso * 15
+        valor = peso * 15 + 20 #taxa extra
+        print("carga pesada")
     return valor
 
  peso_carga = float(input("Digite o peso da carga em kg:"))
