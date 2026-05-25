@@ -6,5 +6,5 @@ def converter(valor_dolar):
 print("Conversor dólar x real")
 preço = float(input("Digite o preço do produto em Dólar:"))
 resultado = converter(preco)
-print(f"O valor em reais é: {resultdo:.2f}")
+print(f"O valor em reais é: {resultado:.2f}")
               
