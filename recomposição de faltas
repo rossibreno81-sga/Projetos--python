@@ -1,0 +1,6 @@
+compras = ["Arroz", "Feijão", "Batata"]
+print(compras[1])
+filmes = ["Matrix", "Star Wars", "Avatar"]
+
+print(filmes[0])
+print(filmes[2])
